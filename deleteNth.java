@@ -14,7 +14,7 @@ public class EnoughIsEnough {
       int count;
         for(int j = 0; j < elements.length; j++){
             if(cmp == elements[j]) {count++;}
-              if(count > maxOccurrences) {  //not finished, start from here
+              if(count > maxOccurrences) {  				//not finished, start from here
 		return null;
 	}
 
